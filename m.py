@@ -291,8 +291,8 @@ def show_help(message):
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @SukhX_7171
-Official Channel :- https://t.me/+nW0IPotUywlhYzk1
+Buy From :- @PHILOCARDER
+Official Channel :- https://t.me/+GTya3V8OFbliYThl
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -307,9 +307,9 @@ Official Channel :- https://t.me/+nW0IPotUywlhYzk1
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f'''👋🏻Welcome to MAFIA DDOS 🚀, {user_name}! SASTA HAI KHARID LO ABHI .
+    response = f'''👋🏻Welcome to PHILO DDOS 🚀, {user_name}! SASTA HAI KHARID LO ABHI .
 🤖Try To Run This Command : /help 
-✅Join :- https://t.me/+nW0IPotUywlhYzk1'''
+✅Join :- https://t.me/+GTya3V8OFbliYThl'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -333,9 +333,9 @@ Vip 🌟 :
 -> Concurrents Attack : 3
 
 Pr-ice List💸 :
-Day-->300 Rs
-Week-->1000 Rs
-Month-->2000 Rs
+Day-->30 Rs
+Week-->100 Rs
+Month-->200 Rs
 '''
     bot.reply_to(message, response)
 
